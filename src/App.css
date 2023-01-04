@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .App-logo {
@@ -35,4 +38,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Dropdown_container{
+  display: flex;
+}
+
+.selector{
+  width: 300px;
+  padding:5px
+}
+.table_header{
+  background-color:bisque ;
+  width: 700px;
+  display: flex;
+  text-align: left;
+}
+.table_header_value{
+  width: 150px;
+  padding:10px
+}
+.table_data{
+
+  display: flex;
+}
+.table_data_value{
+  width: 150px;
+  padding: 10px;
+}
+.table_body{
+  width: 700px;
+  max-height: 500px;
+  overflow: auto;
 }
